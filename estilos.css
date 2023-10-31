@@ -1,0 +1,167 @@
+@charset 'utf-8';
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;               /* CSS RESET */
+    text-decoration: none;
+    list-style-type: none;   
+   }
+
+
+   body {
+    background-color: rgb(34, 34, 34);
+    background-image: url();
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+   }
+
+ header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ #titulo {
+    flex-direction: column;
+    line-height: 40px;
+    font-weight: bold;
+ }
+
+ li {
+   display: inline-block;
+   margin: 20px;
+
+ }
+
+
+ h1 {
+    font-weight: 200;
+    text-decoration: dashed;
+    text-shadow: 10px;
+    margin-top: 5px;
+    color:#8A2BE2
+ }
+
+ main {
+display: flex;
+flex-direction: row;
+margin-top: 50px;
+ }
+
+ h2 {
+   font-size: 30px;
+   line-height: 40px;
+
+ }
+
+ h3 {
+   font-size: large;
+   text-align: justify;
+   text-align: center;
+
+ }
+
+#sobre  {
+   text-align: center;
+   text-align: justify;
+   margin-top: auto;
+   padding: 15px;
+   font-size: larger;   
+}
+
+#contato {
+   margin-top: auto;
+}
+
+#imagemlogo {
+   width: 150px;
+   border: 1px solid;
+   color: grey;
+}
+
+ #ani {
+   border: 2px solid rgb(132,14,201);
+   padding: 10px;
+   border-radius: 16px;
+ }
+
+
+ #ani:hover {
+  background-color: rgb(132,14,201);
+  color: white;
+ }
+
+ span {
+   color:#9900ff  
+ }
+
+ form {
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+}
+
+form [type="submit"] {
+   height: 50px;
+   width: 70%;
+   background-color: #8A2BE2;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   text-align: center;
+}
+
+form [type="submit"]:hover {
+   cursor: pointer;
+   
+
+}
+
+form [type="reset"] {
+   text-align: center;
+   height: 50px;
+   width: 70%;
+   background-color: #8A2BE2;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+}
+
+form [type="reset"]:hover {
+   cursor: pointer;
+
+}
+
+
+input {
+   margin-top: 20px;
+   height: 20px;
+   padding: 15px;
+   border-radius: 15px;
+   font-size: 15px;
+}
+
+ img  {
+   width: 300px;
+   border:#9900ff;
+ }
+
+
+
+ footer {
+   border: 3px solid rgb(10, 10, 10);
+   background-color: #ff6600;
+   color:#f6f6f6;
+   width: 1180px;
+   height: 95px;
+   margin-top: 40px;
+   margin-left: 40px;
+   clear: both;
+   text-align: center;
+   line-height: 25px;
+}
+
